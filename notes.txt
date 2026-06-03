@@ -1,0 +1,18 @@
+array is a collection of elements of  same datatypes,
+easy traversal,
+valid syntax: int []arr; //declaration (compile time)
+int[] arr={1,2,3,4}//declaration+initialization
+int arr[]//valid but it looks like arrray is of arr type but it is int type
+int []arr=new int[3];//fixed size
+arr.length//to find length. length is attribute so not use()
+time complexity depends on no. of steps/statements
+time complexity:it is amount of time an algorithm takes to complete as a function 
+of it input size (not depends on seconds) it depends on elementary operation
+asymptotic Notation:O(n)(worst case),omega(best case),theta(average case)
+we design solution for worst case thats why we use O(n)
+
+to add folder on github
+git init
+git add homework/
+git commit -m "Add homework folder"
+git push origin main

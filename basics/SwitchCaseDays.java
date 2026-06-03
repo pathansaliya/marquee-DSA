@@ -1,5 +1,3 @@
-package basics;
-
 public class SwitchCaseDays {
     public static void main(String[] args) {
 

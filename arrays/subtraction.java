@@ -22,7 +22,21 @@ public class subtraction {
     for(int i=ans.length-1;i>=0;i--){
         result[index++]=ans[i];
     }
-    return result;
+    int i=0;
+     int count=0;
+    if(result[0]==0){
+       while(result[i]==0){
+            count++;
+            i++;
+        }
+    }
+    int finalAns[]=new int[result.length-count];
+    int s=0;
+    for(int k=count;k<finalAns.length;k++){
+        finalAns[s]=result[k];
+        s++;
+    }
+    return finalAns;
     }
     public static void main(String[]args){
         Scanner sc=new Scanner(System.in);

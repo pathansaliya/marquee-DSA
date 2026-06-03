@@ -1,5 +1,3 @@
-package patterns;
-
 import java.util.*;
 
 public class PyramidPattern {

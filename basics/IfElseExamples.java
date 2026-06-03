@@ -1,5 +1,3 @@
-package basics;
-
 public class IfElseExamples {
     public static void main(String[] args) {
 
