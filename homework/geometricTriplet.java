@@ -15,7 +15,7 @@ public class geometricTriplet {
             }
             
         }
-        System.out.println("No triplet found")l
+        System.out.println("No triplet found");
     }
     public static void main(String[]args){
         Scanner sc=new Scanner(System.in);

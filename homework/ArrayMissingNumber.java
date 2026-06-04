@@ -1,4 +1,3 @@
-package Array;
 import java.util.*;
 
 public class ArrayMissingNumber {
@@ -14,7 +13,7 @@ public class ArrayMissingNumber {
         }
 
     }
-    static void main() {
+    public static void main(String[]args) {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
         int[] nums = new int[n];
